@@ -7,6 +7,7 @@ import React from 'react';
 import StatusBox from './Components/Layout/StatusBox';
 import ChartComponent from './Components/Layout/ChartComponent';
 import acorn  from './assets1/monitor.png';
+import RightIcon from './Components/Layout/RightIcon';
 
 
 const App = () => {
@@ -82,7 +83,9 @@ const App = () => {
         </div>
      
       </div>
-     
+     <div className='lastSec'>
+      <RightIcon/>
+     </div>
     </div>
   );
 };
